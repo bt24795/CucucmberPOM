@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Without example keyword"
+          }
+        ],
+        "line": 3,
+        "name": "Validate FreeCRM HomePage Test",
+        "description": "",
+        "id": "freecrm-application-test;validate-freecrm-homepage-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5294138000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48518100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_already_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3610373300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs into page",
+            "match": {
+              "location": "HomePageSteps.user_logs_into_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4799100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user validates the title of Home page",
+            "match": {
+              "location": "HomePageSteps.user_validates_the_title_of_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Application Test",
+    "description": "",
+    "id": "freecrm-application-test",
+    "keyword": "Feature",
+    "uri": "D:/Selenium_Class/Selenium_WorkSpace/CucucmberPOM/src/main/java/com/qa/features/freecrm.feature"
+  }
+]
